@@ -1,11 +1,8 @@
 Jenkinsfile (Declarative Pipeline)
 /* Requires the Docker Pipeline plugin */
 pipeline {
-    agent { 
-        node {
-            label 'learn'
-        }
-    }
+    agent any
+    
     stages {
         stage('Build') {
             steps {
