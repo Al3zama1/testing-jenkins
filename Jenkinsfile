@@ -1,12 +1,10 @@
 Jenkinsfile (Declarative Pipeline)
-/* Requires the Docker Pipeline plugin */
-pipeline {
-    agent any
-    
-    stages {
-        stage('Build') {
-            steps {
-                echo 'what is this'
+pipeline { 
+    agent any  
+    stages { 
+        stage('Build') { 
+            steps { 
+               echo 'This is a minimal pipeline.' 
             }
         }
     }
