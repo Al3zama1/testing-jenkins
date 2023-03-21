@@ -3,7 +3,7 @@ Jenkinsfile (Declarative Pipeline)
 pipeline {
     agent { 
         node {
-            label 'learnn'
+            label 'learn'
         }
     }
     stages {
